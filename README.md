@@ -21,12 +21,12 @@ Postman : For testing the API endpoints.
 
 Setup Instructions
 1. Clone the Repository
-Clone the repository to your local machine:
+Clone the repository to your local machine: https://github.com/vikrammore85/Restaurent-Management.git
 
  
-cd restaurant-management
+cd restaurant-management-api
 2. Configure MySQL Database
-Create a new MySQL database:
+Create a new MySQL database: restaurant_management
 
 CREATE DATABASE-- restaurant_management;
 Update the application.properties file with your MySQL credentials:
@@ -34,15 +34,22 @@ Update the application.properties file with your MySQL credentials:
 properties
  
 spring.datasource.url=jdbc:mysql://localhost:3306/restaurant_management
+
 spring.datasource.username=root
+
 spring.datasource.password=yourpassword
+
 spring.jpa.hibernate.ddl-auto=update
+
 3. Build the Project
+   
 Use Maven to build the project:
 
  
 mvn clean install
+
 4. Run the Application
+5. 
 Start the Spring Boot application:
 
 
@@ -51,11 +58,7 @@ The application will start on http://localhost:8080.
 
  
 API Endpoints
-1. Menu Management
-a. Get All Menu Items
-Endpoint: GET /api/menu
 
- 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 Testing the API
 Use Postman or any API testing tool.
