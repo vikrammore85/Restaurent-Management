@@ -73,7 +73,7 @@ Analytic-endpoint
 
 3) Get-Monthly-revenue =GET METHOD=     http://localhost:8080/api/analytics/monthly-revenue
 
-4) Get-populat-item =GET METHOD=        http://localhost:8080/api/analytics/popular-item
+4) Get-populat-item =GET METHOD=        http://localhost:8080/api/analytics/popular-items?date=2023-11-20
 
 5) Peak-hours =GET METHOD=              http://localhost:8080/api/analytics/peak-hours
 
